@@ -77,7 +77,7 @@ function Send() {
       messageDiv.style.fontSize = "14px";
       messageDiv.style.position = "absolute";
       messageDiv.style.top = "260px";
-      messageDiv.style.left = "27%";
+      messageDiv.style.left = "29%";
       document.querySelector(".login_home").appendChild(messageDiv);
     } else {
       var messageDiv = document.createElement("div");
@@ -86,7 +86,7 @@ function Send() {
       messageDiv.style.fontSize = "14px";
       messageDiv.style.position = "absolute";
       messageDiv.style.top = "260px";
-      messageDiv.style.left = "27%";
+      messageDiv.style.left = "29%";
       document.querySelector(".login_home").appendChild(messageDiv);
     }
   });
